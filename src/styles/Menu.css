@@ -1,0 +1,127 @@
+.menu-page {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background: linear-gradient(to bottom, #1b1b1b, #2a2a2a);
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.menu-header {
+  text-align: center;
+  padding: 80px 20px 50px;
+  background: rgba(0, 0, 0, 0.7) url('../image/kitche-banner.jpg') center/cover no-repeat;
+  background-blend-mode: darken;
+  color: #fff;
+}
+
+.menu-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.menu-header p {
+  font-size: 1.1rem;
+  color: #ddd;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.menu-section {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.menu-category {
+  margin-bottom: 50px;
+}
+
+.menu-category h2 {
+  color: #ffbb33;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ffbb33;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.menu-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu-item {
+  background: #292929;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+  background: #333;
+  transform: translateY(-5px);
+}
+
+.menu-info h3 {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.menu-description {
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+.menu-price {
+  font-weight: bold;
+  color: #ffbb33;
+  font-size: 1.1rem;
+}
+
+.menu-cta {
+  text-align: center;
+  padding: 60px 20px;
+  background: #111;
+  color: #fff;
+}
+
+.menu-cta h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.menu-cta p {
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto 25px;
+}
+
+.order-button {
+  background: #ffbb33;
+  color: #000;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.order-button:hover {
+  background: #ffaa00;
+  transform: scale(1.05);
+}
+
+.menu-footer {
+  text-align: center;
+  padding: 25px;
+  background: #1b1b1b;
+  color: #aaa;
+  font-size: 0.9rem;
+}

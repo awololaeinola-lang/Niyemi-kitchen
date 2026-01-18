@@ -1,0 +1,72 @@
+.order-page {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  background: #1b1b1b;
+  color: #fff;
+}
+
+.order-section {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #292929;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.order-section h1 {
+  margin-bottom: 10px;
+}
+
+.order-section p {
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.order-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.order-form input,
+.order-form select {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.order-button {
+  margin-top: 10px;
+  padding: 12px 28px;
+  background: #ffbb33;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.order-button:hover {
+  background: #ffaa00;
+  transform: scale(1.05);
+}
+
+.success-message {
+  color: #4CAF50;
+  margin-bottom: 15px;
+  font-weight: bold;
+}

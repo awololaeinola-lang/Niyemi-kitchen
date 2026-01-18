@@ -1,0 +1,16 @@
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #751414;
+  min-height: 100vh; /* makes sure it covers full screen height */
+  padding-top: 0; /* navbar already has padding */
+  margin: 0;
+}
+
+/* Optional global reset for cleaner design */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #948383;
+}
