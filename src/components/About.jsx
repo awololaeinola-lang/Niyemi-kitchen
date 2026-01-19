@@ -1,7 +1,7 @@
 
 import React from 'react';
 import '../styles/About.css';
-import Navbar from './Navbar';
+
 
 function About() {
   return (

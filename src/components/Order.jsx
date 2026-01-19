@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react';
 import '../styles/Order.css';
-import Navbar from './Navbar';
 
 // Example menu data – you can also import this from a Menu.js file
 const menuItems = [

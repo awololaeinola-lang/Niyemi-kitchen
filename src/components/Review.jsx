@@ -2,7 +2,7 @@
 
 import React from 'react';
 import '../styles/Review.css';
-import Navbar from './Navbar';
+
 
 const reviews = [
   {

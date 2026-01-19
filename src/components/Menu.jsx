@@ -2,7 +2,7 @@
 
 import React from 'react';
 import '../styles/Menu.css';
-import Navbar from './Navbar';
+
 
 function Menu() {
   const menuItems = [
