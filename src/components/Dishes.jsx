@@ -72,7 +72,8 @@ function Dishes() {
             <img src={recipe.image} alt={recipe.name} className="recipe-image" />
             <h3>{recipe.name}</h3>
             <p>{recipe.description}</p>
-            <a href="#" className="view-button">View Recipe</a>
+            <button className="order-btn">Order Now</button>
+
           </div>
         ))}
       </div>

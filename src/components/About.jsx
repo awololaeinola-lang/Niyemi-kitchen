@@ -101,10 +101,10 @@ function About() {
       <section className="about-socials">
         <h2>Connect With Us</h2>
         <div className="social-icons">
-          <a href="#"><i className="fab fa-instagram"></i></a>
-          <a href="#"><i className="fab fa-facebook"></i></a>
-          <a href="#"><i className="fab fa-youtube"></i></a>
-        </div>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+          </div>
       </section>
 
       {/* FOOTER */}
