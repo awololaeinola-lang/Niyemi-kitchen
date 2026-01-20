@@ -1,13 +1,15 @@
+import React from "react";
+import "../styles/About.css";
 
-import React from 'react';
-import '../styles/About.css';
-
+import aboutImage from "../assets/about-image.jpg";
+import team1 from "../assets/team1.jpg";
+import team2 from "../assets/team2.jpg";
+import team3 from "../assets/team3.jpg";
+import comm from "../assets/comm.jpg";
 
 function About() {
   return (
     <div className="about-page">
-      
-
       {/* HERO SECTION */}
       <section className="about-hero">
         <div className="hero-text">
@@ -19,7 +21,7 @@ function About() {
           </p>
         </div>
         <div className="hero-image">
-          <img src="/image/about-image.jpg" alt="Cooking together" />
+          <img src={aboutImage} alt="Cooking together" />
         </div>
       </section>
 
@@ -49,19 +51,19 @@ function About() {
         <h2>Meet the Team</h2>
         <div className="team-cards">
           <div className="team-card">
-            <img src="/image/team1.jpg" alt="Raji Riddie" />
+            <img src={team1} alt="Raji Riddie" />
             <h3>Raji Riddie</h3>
             <p>Recipe Developer</p>
           </div>
           <div className="team-card">
-            <img src="/image/team2.jpg" alt=" Niniola" />
-            <h3>Niniola </h3>
+            <img src={team2} alt="Niniola" />
+            <h3>Niniola</h3>
             <p>Head Chef</p>
           </div>
           <div className="team-card">
-            <img src="/image/team3.jpg" alt=" Chris Dammie" />
-            <h3>Chris Dammie</h3>
-            <p>Creative Director </p>
+            <img src={team3} alt="Temmy" />
+            <h3>Temmy</h3>
+            <p>Creative Director</p>
           </div>
         </div>
       </section>
@@ -70,8 +72,7 @@ function About() {
       <section className="about-gallery">
         <h2>Our Kitchen Moments</h2>
         <div className="gallery-grid">
-          <img src="/image/comm.jpg" alt="Nourishable meals" />
-          
+          <img src={comm} alt="Nourishable meals" />
         </div>
       </section>
 
@@ -81,7 +82,7 @@ function About() {
         <div className="testimonials">
           <blockquote>
             “Niyemi Kitchen made me fall in love with Nigerian cuisine again. The recipes are simple and always tasty!”
-            <span>– Ola,Kwara</span>
+            <span>– Ola, Kwara</span>
           </blockquote>
           <blockquote>
             “Every week I discover something new to try. It feels like having a friend in the kitchen!”
@@ -104,7 +105,7 @@ function About() {
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-          </div>
+        </div>
       </section>
 
       {/* FOOTER */}
